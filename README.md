@@ -1,6 +1,8 @@
 QUICK START
-run encrypt: node encrypt.js 3 'hello world!'
-run decrypt: node decrypt.js
+
+## run encrypt: node encrypt.js 3 'hello world!'
+
+## run decrypt: node decrypt.js
 
 ## RUS
 
