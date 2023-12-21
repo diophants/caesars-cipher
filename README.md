@@ -6,6 +6,10 @@ QUICK START
 
 ## RUS
 
+Этот код содержит в себе алгоритм "Шифр Цезаря". Он принимает текст и каждую букву сдвигает в соответствии его алфивита.
+
+Дешифратор работает иначе. Он сканирует текст, находит часто используемые комбинации символов, сопоставляет эти комбинации с часто используемыми словами, находит число сдвига и с помощью того же алгаритма "Шифр Цезаря" делает обратный сдвиг. На выходе получается расшифрованный текст без исходного ключа
+
 Encrypt:
 
 1. Создайте файл <my-name>.txt и поместите в него любой вразумительный текст не менее 100 символов. Можно на разных языках (рус, англ)
@@ -32,6 +36,10 @@ node encrypt.js 0 <my-name>.txt
 В консоле, в поле "keyWord" отобразиться недостающее слово
 
 ## ENG
+
+This code contains the Caesar Cipher algorithm. He accepts the text and shifts each letter according to his alphabet.
+
+The decoder works differently. It scans the text, finds frequently used character combinations, matches these combinations with frequently used words, finds the shift number and uses the same algarithm "Caesar Cipher" to reverse the shift. The output is a decrypted text without the original key
 
 Encrypt:
 
