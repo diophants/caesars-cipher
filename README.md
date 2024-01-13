@@ -1,6 +1,6 @@
-## Run file
+# Run file
 
-# Зашифровать
+## Зашифровать
 
 node <filename> <offset-step> <input>
 
@@ -10,7 +10,7 @@ node encrypt.js 3 text-eng.txt
 
 Результат в файле "cipher.txt"
 
-# Расшифровать
+## Расшифровать
 
 ```
 node decrypt.js
