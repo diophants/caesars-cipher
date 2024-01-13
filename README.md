@@ -2,7 +2,7 @@
 
 ## Зашифровать
 
-node <filename> <offset-step> <input>
+node 'filename' 'offset-step' 'input'
 
 ```
 node encrypt.js 3 text-eng.txt
