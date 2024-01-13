@@ -9,7 +9,7 @@ const { readFile, writeFile } = fs.promises;
 
 const KEY_WORDS = {
   eng: ['the', 'and', 'of', 'a', 'hello'],
-  rus: ['и', 'на', 'что'],
+  rus: ['в', 'и', 'на', 'что'],
 };
 
 keyWordSearch = (obj) => {
